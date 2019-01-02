@@ -1,0 +1,12 @@
+Source: ros-kinetic-catch-ros
+Section: misc
+Priority: extra
+Maintainer: Max Schwarz <max.schwarz@ais.uni-bonn.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-catch-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp
+Description: ROS integration for the Catch unit test framework
