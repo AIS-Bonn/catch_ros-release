@@ -2,10 +2,10 @@
 catch_ros
 =========
 
-catch_ros is a small ROS catkin wrapper around the very nice [Catch][1] unit
+catch_ros is a small ROS catkin wrapper around the very nice [Catch2][1] unit
 testing framework by Phil Nash.
 
-[1]: https://github.com/philsquared/Catch
+[1]: https://github.com/catchorg/Catch2/
 
 Usage
 -----
@@ -51,10 +51,14 @@ TEST_CASE("test_case", "[some tag]")
 }
 ```
 
+**NOTE**: Do not define `CATCH_CONFIG_MAIN` in your code, as you will hide
+the definition of `main()` in `catch_ros`, which performs required command
+line processing and ROS initialization.
+
 License
 -------
 
-The catch_ros wrapper is released under BSD-3. Catch is licensed under
+The catch_ros wrapper is released under BSD-3. Catch2 is licensed under
 the Boost license (see the Catch repository for details). We provide the
 single header version for convenience in this repository at
 `include/catch_ros/catch.hpp`.
