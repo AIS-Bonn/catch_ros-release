@@ -1,3 +1,26 @@
+## catch_ros (noetic) - 0.5.0-1
+
+The packages in the `catch_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic catch_ros` on `Fri, 20 Aug 2021 09:35:17 -0000`
+
+The `catch_ros` package was released.
+
+Version of package(s) in repository `catch_ros`:
+
+- upstream repository: https://github.com/AIS-Bonn/catch_ros
+- release repository: https://github.com/AIS-Bonn/catch_ros-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## catch_ros (noetic) - 0.4.0-1
 
 The packages in the `catch_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic catch_ros` on `Thu, 28 May 2020 08:12:23 -0000`
